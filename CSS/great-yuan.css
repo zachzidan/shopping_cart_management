@@ -1,0 +1,64 @@
+h1,h2,h3,h4,h5,h6 {
+	font-family: Raleway;
+}
+h4 a:hover{
+	color: #e8591c;	
+}
+.passion {
+	font-family: "Passion One";
+}
+
+.price{
+	text-align: right;
+}
+.right {
+    float: right;
+}
+.quantity {
+	width: 50%;
+}
+.shopping:hover {
+	background-color: #c9ffcc;
+}
+.checkout {
+	background-color: #58d941;
+	border: #58d941;
+	float:right;
+}
+.checkout:hover{
+	background-color: #e8591c;
+}
+ul.circle {
+    list-style-type: circle;
+}
+.footer{
+	margin-top: 30px;
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: #191e21;
+}
+.footer .container p{
+	font-family: Raleway;
+	background: none;
+	margin: 20px 0px;
+	color: #e8591c;
+}
+#navbar ul,li{
+	background: none;
+	font-size: 10pt;
+	font-family: Raleway;
+}
+.navbar-inverse .navbar-brand{
+	font-size: 24px;
+	color: #e8591c;
+}
+.navbar-inverse{
+	background-color: #191e21;
+	border-color: #191e21;
+}
+tfoot{
+	background-color: #e6e6e6;
+	border: 8c8c8c;
+	}

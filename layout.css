@@ -1,0 +1,163 @@
+
+
+
+#container
+{
+	width:900px;
+	margin:0 auto;
+	overflow:auto;
+}
+
+#header
+{
+	background-color: black;
+	text-align:left;
+	height: auto;
+}
+
+#header text
+{
+	float:left;
+}
+
+#header-logo
+{
+	position:fixed;
+	top: 0;
+	right: 0;
+	margin:5px;
+}
+
+#nav
+{
+	width:900px;
+	margin:auto;
+	overflow:auto;
+}
+
+#nav ul
+{
+
+
+    list-style-type: none;
+    line-height:30px;
+    background-color:#eeeeee;
+    height:auto; 
+	
+    width:100px;
+    float:left;
+    padding:5px;
+}
+
+#nav ul li
+{	
+width: 200px;
+ text-align:center;
+	margin:5px
+}
+
+#main
+{
+
+	padding-top:55px;
+	white-space:nowrap;
+	overflow:hidden;
+	margin-top:3px;
+}
+
+#main_left
+{
+  position: fixed;
+  left: 0;
+
+  top: 20%;
+  width: 8em;
+  margin-top: -2.5em;
+}
+
+#main_center
+{
+
+	float:left;
+	width: 80%;
+
+
+
+}
+
+#main_right
+{
+	padding: 20px;
+	display:inline-block;
+	float:left;
+	width:auto;
+	margin: 20px;
+	border: 5px;
+	min-height:200px;
+}
+
+#footer
+{
+	height: 55px;
+	padding:5px;
+	bottom: 0;
+	left: 0;
+ 	position: fixed;
+        width: 100%;
+}
+
+
+#floatingCart{
+	display : none;
+	z-index: 0;
+	right:100;
+        background-color: white;
+        z-index:1002;
+	width: 240px;
+	position:absolute;
+	border-style: solid;
+	border-width: 2px;	
+	padding-bottom:5px;
+	padding-top:px;
+}
+
+#floatmain
+{
+	padding-top:45px;
+#	padding-left: 5px;
+#	padding-right:5px;
+	white-space:nowrap;
+	overflow:hidden;
+	margin-top:3px;
+}
+
+
+#floatbody
+{	
+	padding-left: 50px;
+	padding-right:5px;
+	margin-top:3px;
+	font-family:sans-serif;
+}
+
+#floatingCart .boxHead{
+	background: rgb(66,139,202);
+	padding-left:2px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+hr{
+	
+	padding-top: 2px;
+	
+}
+
+hi{
+align:center;
+}
+
+td hr{
+margin-top:10px;
+margin-bottom:10px;
+}
